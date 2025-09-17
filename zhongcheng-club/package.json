@@ -1,0 +1,13 @@
+   {
+     "name": "zhongcheng-club",
+     "version": "1.0.0",
+     "description": "众城俱乐部官网",
+     "scripts": {
+       "dev": "vercel dev",
+       "deploy": "vercel deploy --prod"
+     },
+     "dependencies": {
+       "vercel": "^32.5.0"
+     }
+   }
+   
