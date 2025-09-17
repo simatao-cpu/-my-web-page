@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>众城俱乐部 - 下载注册领红包</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- 配置Tailwind自定义颜色 -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#165DFF',
+                        secondary: '#36CFC9',
+                        accent: '#E63946', // 红包红色
+                        gold: '#FFB703',   // 金色
+                        dark: '#1D2129',
+                        light: '#F2F3F5'
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .gradient-primary {
+                background: linear-gradient(135deg, #165DFF 0%, #722ED1 100%);
+            }
+            .gradient-accent {
+                background: linear-gradient(135deg, #E63946 0%, #FF9F1C 100%);
+            }
+            .float {
+                animation: float 3s ease-in-out infinite;
+            }
+            .pulse {
+                animation: pulse 2s infinite;
+            }
+            .slide-up {
+                animation: slide-up 0.5s ease-out forwards;
+            }
+            .highlight {
+                animation: highlight 2s infinite;
+            }
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        @keyframes slide-up {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        @keyframes highlight {
+            0% { box-shadow: 0 0 0 0 rgba(255, 183, 3, 0.4); }
+            70% { box-shadow: 0 0 0 8px rgba(255, 183, 3, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(255, 183, 3, 0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-dark">
+    <!-- 顶部通知栏 -->
+    <div class="gradient-accent text-white text-center py-2 text-sm">
+        <p>新用户专享：下载注册并添加助教ID<span class="font-bold">qwe321</span>即送<span class="font-bold">¥28</span>红包</p>
+    </div>
+    
+    <!-- 主要内容 -->
+    <main class="max-w-md mx-auto px-4 py-6">
+        <!-- 应用标题和红包宣传 -->
+        <div class="text-center mb-6 slide-up opacity-0" style="animation-delay: 0.1s;">
+            <div class="relative inline-block">
+                <div class="w-24 h-24 gradient-primary rounded-full mx-auto flex items-center justify-center mb-4 shadow-lg">
+                    <span class="text-white text-3xl font-bold">众</span>
+                </div>
+                <!-- 悬浮红包图标 -->
+                <div class="absolute -top-3 -right-3 w-12 h-12 bg-accent rounded-full flex items-center justify-center shadow-lg float pulse">
+                    <i class="fa fa-envelope text-white"></i>
+                </div>
+            </div>
+            <h1 class="text-[clamp(1.5rem,6vw,2rem)] font-bold mb-1">众城俱乐部</h1>
+            <p class="text-gray-500">v2.1.8 官方正版</p>
+        </div>
+        
+        <!-- 红包奖励展示 -->
+        <div class="gradient-accent rounded-3xl p-6 mb-8 text-center text-white shadow-xl slide-up opacity-0" style="animation-delay: 0.3s;">
+            <p class="opacity-90 mb-1">下载注册 + 添加助教ID</p>
+            <div class="flex items-baseline justify-center mb-3">
+                <span class="text-4xl font-bold">¥28</span>
+                <span class="opacity-90 ml-1">现金红包</span>
+            </div>
+            <div class="inline-block bg-white/20 rounded-full px-3 py-1 text-sm mt-1">
+                助教ID：<span class="font-bold text-gold">qwe321</span>
+            </div>
+        </div>
+        
+        <!-- 下载按钮区域 -->
+        <div class="space-y-4 mb-10 slide-up opacity-0" style="animation-delay: 0.5s;">
+            <a href="https://yjhgi6.sebxdl.com/TgDCTjN/mdjmyzmxot" target="_blank" class="block">
+                <button class="w-full gradient-primary hover:opacity-95 text-white font-bold py-4 px-6 rounded-xl shadow-lg flex items-center justify-center transition-all duration-300">
+                    <i class="fa fa-download mr-3 text-xl"></i>
+                    <span>立即下载 领¥28红包</span>
+                    <i class="fa fa-angle-right ml-auto text-xl"></i>
+                </button>
+            </a>
+            
+            <div class="grid grid-cols-2 gap-4">
+                <a href="https://yjhgi6.sebxdl.com/TgDCTjN/mdjmyzmxot" target="_blank" class="block">
+                    <button class="w-full bg-white border border-gray-200 hover:bg-gray-50 text-dark font-medium py-3 px-4 rounded-xl shadow flex items-center justify-center transition-all duration-300">
+                        <i class="fa fa-globe mr-2 text-primary"></i>
+                        <span>通用版本</span>
+                    </button>
+                </a>
+                
+                <a href="https://bnsjwqo.aolierchina.com/query/4cpmou9b560956" target="_blank" class="block">
+                    <button class="w-full bg-white border border-gray-200 hover:bg-gray-50 text-dark font-medium py-3 px-4 rounded-xl shadow flex items-center justify-center transition-all duration-300">
+                        <i class="fa fa-android mr-2 text-green-600"></i>
+                        <span>安卓版本</span>
+                    </button>
+                </a>
+            </div>
+        </div>
+        
+        <!-- 领取红包步骤 -->
+        <div class="bg-white rounded-2xl shadow-md p-6 mb-10 slide-up opacity-0" style="animation-delay: 0.7s;">
+            <h2 class="text-xl font-bold mb-5 flex items-center">
+                <i class="fa fa-list-ol text-primary mr-2"></i>
+                三步领取¥28红包
+            </h2>
+            
+            <div class="space-y-6">
+                <div class="flex">
+                    <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold mr-4 flex-shrink-0">1</div>
+                    <div>
+                        <p class="font-medium">下载并安装众城俱乐部</p>
+                        <p class="text-sm text-gray-500 mt-1">选择适合您设备的版本下载安装</p>
+                    </div>
+                </div>
+                
+                <div class="flex">
+                    <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold mr-4 flex-shrink-0">2</div>
+                    <div>
+                        <p class="font-medium">注册并登录账号</p>
+                        <p class="text-sm text-gray-500 mt-1">使用手机号完成注册并登录</p>
+                    </div>
+                </div>
+                
+                <div class="flex">
+                    <div class="w-10 h-10 bg-accent rounded-full flex items-center justify-center text-white font-bold mr-4 flex-shrink-0">3</div>
+                    <div class="flex-grow">
+                        <p class="font-medium">添加助教ID领取红包</p>
+                        <div class="flex items-center mt-2 p-3 bg-yellow-50 rounded-lg border border-yellow-100 highlight">
+                            <span class="text-sm font-medium mr-2">助教ID：</span>
+                            <span class="font-bold text-dark flex-grow">qwe321</span>
+                            <button class="text-primary text-sm">复制</button>
+                        </div>
+                        <p class="text-xs text-gray-500 mt-2">在"我的-邀请码"或"添加助教"处填写</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 邀请奖励规则 -->
+        <div class="bg-white rounded-2xl shadow-md p-6 mb-10 slide-up opacity-0" style="animation-delay: 0.9s;">
+            <h2 class="text-xl font-bold mb-5 flex items-center">
+                <i class="fa fa-trophy text-gold mr-2"></i>
+                邀请好友 奖励升级
+            </h2>
+            
+            <div class="space-y-4">
+                <div class="flex items-center justify-between p-3 bg-gray-50 rounded-xl">
+                    <div>
+                        <p class="font-medium">好友完成注册并添加助教ID</p>
+                        <p class="text-xs text-gray-500">好友也需添加助教ID: qwe321</p>
+                    </div>
+                    <p class="text-accent font-bold">+¥15</p>
+                </div>
+                
+                <div class="flex items-center justify-between p-3 bg-gray-50 rounded-xl">
+                    <div>
+                        <p class="font-medium">好友完成首次任务</p>
+                        <p class="text-xs text-gray-500">好友完成新手引导任务</p>
+                    </div>
+                    <p class="text-accent font-bold">+¥20</p>
+                </div>
+                
+                <div class="flex items-center justify-between p-3 bg-gray-50 rounded-xl">
+                    <div>
+                        <p class="font-medium">好友邀请1位新用户</p>
+                        <p class="text-xs text-gray-500">二级邀请奖励</p>
+                    </div>
+                    <p class="text-accent font-bold">+¥10</p>
+                </div>
+                
+                <div class="pt-4 mt-2 border-t border-gray-100">
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <p class="font-medium">邀请1位好友最高可得</p>
+                        </div>
+                        <p class="text-2xl font-bold text-accent">¥45</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 常见问题 -->
+        <div class="mb-20 slide-up opacity-0" style="animation-delay: 1.1s;">
+            <h2 class="text-xl font-bold mb-4">常见问题</h2>
+            
+            <div class="space-y-3">
+                <div class="bg-white rounded-xl p-3 shadow-sm">
+                    <p class="font-medium text-sm">忘记添加助教ID怎么办？</p>
+                    <p class="text-gray-500 text-xs mt-1">登录后可在"我的设置"中找到"添加助教ID"入口，7天内添加仍可领取红包</p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-3 shadow-sm">
+                    <p class="font-medium text-sm">添加助教ID后多久到账？</p>
+                    <p class="text-gray-500 text-xs mt-1">添加成功后，红包将在24小时内发放至您的账户，可在"我的红包"中查看</p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-3 shadow-sm">
+                    <p class="font-medium text-sm">好友需要添加相同的助教ID吗？</p>
+                    <p class="text-gray-500 text-xs mt-1">是的，您邀请的好友也需要添加助教ID: qwe321才能完成邀请任务并获得奖励</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- 底部导航 -->
+    <footer class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 py-3 px-6">
+        <div class="max-w-md mx-auto flex justify-around">
+            <a href="#" class="flex flex-col items-center text-primary">
+                <i class="fa fa-home text-xl"></i>
+                <span class="text-xs mt-1">首页</span>
+            </a>
+            <a href="#" class="flex flex-col items-center text-gray-400">
+                <i class="fa fa-gift text-xl"></i>
+                <span class="text-xs mt-1">红包</span>
+            </a>
+            <a href="#" class="flex flex-col items-center text-gray-400">
+                <i class="fa fa-users text-xl"></i>
+                <span class="text-xs mt-1">邀请</span>
+            </a>
+            <a href="#" class="flex flex-col items-center text-gray-400">
+                <i class="fa fa-user text-xl"></i>
+                <span class="text-xs mt-1">我的</span>
+            </a>
+        </div>
+    </footer>
+    
+    <!-- 下载引导弹窗 (延迟显示) -->
+    <div id="downloadModal" class="fixed inset-0 bg-black/70 z-50 hidden items-center justify-center">
+        <div class="bg-white rounded-2xl w-11/12 max-w-md p-6 mx-4">
+            <div class="text-center">
+                <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fa fa-download text-accent text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">立即领取¥28红包</h3>
+                <p class="text-gray-500 mb-4">下载并注册众城俱乐部</p>
+                <div class="bg-yellow-50 rounded-lg p-2 mb-6 inline-block">
+                    <p class="text-sm">记得添加助教ID: <span class="font-bold text-dark">qwe321</span></p>
+                </div>
+                
+                <div class="flex flex-col space-y-3">
+                    <a href="https://yjhgi6.sebxdl.com/TgDCTjN/mdjmyzmxot" target="_blank" class="block">
+                        <button class="w-full gradient-accent hover:opacity-95 text-white font-bold py-3 px-6 rounded-xl transition-colors">
+                            下载App 领红包
+                        </button>
+                    </a>
+                    <button id="closeModal" class="w-full bg-gray-100 hover:bg-gray-200 text-dark font-medium py-2 px-6 rounded-xl transition-colors">
+                        稍后再说
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // 页面加载完成后显示动画元素
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.slide-up').forEach(el => {
+                el.style.opacity = '1';
+            });
+            
+            // 5秒后显示下载弹窗
+            setTimeout(() => {
+                const modal = document.getElementById('downloadModal');
+                modal.classList.remove('hidden');
+                modal.classList.add('flex');
+                // 添加弹窗动画
+                const modalContent = modal.querySelector('div');
+                modalContent.classList.add('animate-bounce-in');
+            }, 5000);
+        });
+        
+        // 关闭弹窗
+        document.getElementById('closeModal').addEventListener('click', () => {
+            const modal = document.getElementById('downloadModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        });
+        
+        // 复制助教ID功能
+        document.querySelector('button:contains("复制")').addEventListener('click', function() {
+            const idText = 'qwe321';
+            navigator.clipboard.writeText(idText).then(() => {
+                const originalText = this.textContent;
+                this.textContent = '已复制';
+                this.classList.add('text-green-600');
+                
+                setTimeout(() => {
+                    this.textContent = originalText;
+                    this.classList.remove('text-green-600');
+                }, 2000);
+            });
+        });
+        
+        // 为所有按钮添加点击反馈
+        document.querySelectorAll('button, a').forEach(el => {
+            el.addEventListener('click', function() {
+                this.classList.add('scale-95');
+                setTimeout(() => {
+                    this.classList.remove('scale-95');
+                }, 200);
+            });
+        });
+        
+        // 添加动画类
+        document.head.insertAdjacentHTML('beforeend', `
+            <style>
+                @keyframes bounce-in {
+                    0% { transform: scale(0.8); opacity: 0; }
+                    70% { transform: scale(1.05); opacity: 1; }
+                    100% { transform: scale(1); opacity: 1; }
+                }
+                .animate-bounce-in {
+                    animation: bounce-in 0.5s ease-out forwards;
+                }
+            </style>
+        `);
+    </script>
+</body>
+</html>
